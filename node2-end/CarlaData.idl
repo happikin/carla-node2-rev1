@@ -1,0 +1,28 @@
+module CarlaData {
+
+	@topic
+	struct RadarSensor {
+		float depth;
+		float azimuth;
+		float altitude;
+		float velocity;
+		float ego_velocity;
+	};
+
+	@topic
+	struct VehicleOdometry {
+		float throttle;
+		float brake;
+		float steering;
+	};
+
+	@topic
+	struct ImageSensor {
+		sequence<octet> raw_data;
+		uint16 height;
+		uint16 width;
+		uint8 pixel_size;
+		int16 image_type;
+	};
+	
+};

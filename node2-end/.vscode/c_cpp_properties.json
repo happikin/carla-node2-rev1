@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/fev/OpenDDS-3.20/**",
+                "/home/fev/OpenDDS-3.20",
+                "/home/fev/OpenDDS-3.20/dds",
+                "/home/fev/OpenDDS-3.20/ACE_wrappers/",
+                "/home/fev/OpenDDS-3.20/ACE_wrappers/TAO",
+                "/usr/local/include/opencv4/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

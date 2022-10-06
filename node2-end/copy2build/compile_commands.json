@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/fev/Downloads/myapi/build",
+  "command": "/usr/bin/c++ -I../include -isystem /usr/include/opencv4 -g -std=gnu++11 -o CMakeFiles/maintest.dir/src/maintest.cpp.o -c /home/fev/Downloads/myapi/src/maintest.cpp",
+  "file": "/home/fev/Downloads/myapi/src/maintest.cpp"
+},
+{
+  "directory": "/home/fev/Downloads/myapi/build",
+  "command": "/usr/bin/c++ -I../include -isystem /usr/include/opencv4 -g -std=gnu++11 -o CMakeFiles/maintest.dir/src/object_detection_yolo.cpp.o -c /home/fev/Downloads/myapi/src/object_detection_yolo.cpp",
+  "file": "/home/fev/Downloads/myapi/src/object_detection_yolo.cpp"
+}
+]
